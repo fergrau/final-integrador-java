@@ -1,0 +1,681 @@
+@media only screen and (min-width: 1051px ) {
+
+    .logo_hidden, .nav_hidden {
+        display: none;
+    }
+
+    .hidden_footer {
+        display: none;
+    }
+
+    .slider_n {
+        padding-left: 0.65em;
+        padding-right: 0.65em;;
+        margin-left: -0.3em;
+    }
+    
+    /* (trasladado a estilos.css por ser particular del index)
+    .generos_to_hide, .generos_to_hide:hover, 
+     .generos:hover .dropdown-content {
+        display: none;
+        overflow: hidden;
+    }
+    */
+}
+
+
+@media only screen and (max-width: 1050px ) {
+
+    /*
+    main {
+        background-color: red;
+    }
+    */
+
+    .generos_to_hide, .generos_to_hide:hover, 
+     .generos:hover .dropdown-content {
+        display: visible;
+        overflow: hidden;
+    }
+
+    .logo_hidden, .nav_hidden {
+        display: none;
+    }
+
+    .sectionheadernav {
+        padding-right: 1em;
+        justify-content: right;
+    }
+
+    .columna_aside_h2 {
+        display: none;  
+    }
+
+    .sectionn {
+        width: 100%;
+        height: auto;
+    }
+
+    .h2novedades {
+        width: 100%;
+        margin-top: 0.85em;
+    }
+
+    .h3maspeliculas{
+        text-indent: 0;
+    }
+
+    .footer_generico {
+        width: 100%;
+    }
+
+    .slider_n{
+        width: 97%;
+        justify-content: left;
+        margin-left: 0.75em;
+    }
+
+    .slide_1 {
+        padding-left: 0.75em;
+    }
+
+    .hidden_footer {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px ) {
+    
+    /*
+    main {
+        background-color: green;
+    }
+    */
+
+    .logo_hidden, .nav_hidden {
+        display: none;
+    }
+
+    #h1eslogan {
+        font-size: 1.3em;
+        padding-left: 0.8em;
+    }
+
+    .sectionheaderlogo {
+        width: 18%;
+        height: auto;
+        padding-left: 1.8em;
+        justify-content: left;
+    }
+
+    #cinefy {
+        width: 11em;
+        height: min-content;
+    }
+
+    .sectionheadernav {
+        padding-right: 0.5em;
+        justify-content: right;
+    }
+
+    .novedades, .boton_generos, .series {
+        width: 7em;
+    }
+
+    .buscar {
+        width: 10em;
+        margin-right: 1em;
+    }
+
+    .img {
+        height: 17em;
+    }
+
+    .hidden_footer {
+        display: none;
+    }
+     
+    /* de VER PELICULA */
+    .headermain_vp {
+        margin-top: -0.3em;
+    }
+    
+    #titulo{
+        margin-top: -1.6em;
+    }
+
+    .article_sinopsis{
+        padding-top: 0;
+        padding-bottom: 1em;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    /* de los ARTICLE */
+    article{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 916px ) {
+    
+    /*
+    main {
+        background-color: violet;
+    }
+    */
+
+    .logo_hidden, .nav_hidden {
+        display: none;
+    }
+
+    #cinefy {
+        width: 9em;
+        height: min-content;
+    }
+
+    #logo {
+        width: 3em;
+        height: min-content;
+    }
+
+    #h1eslogan {
+        font-size: 1.1em;
+        padding-left: 0.5em;
+        margin-top: -0.6em;
+    }
+
+    .sectionheadernav {
+        padding-top: 0.75em;
+    }
+
+    .slide{
+        padding: 0.8em;
+    }
+
+    .slider_n {
+        width: 98%;
+        margin-left: 0em;
+    }
+
+    .img {
+        height: 15em;
+    }
+
+    .hidden_footer {
+        display: none;
+    }
+
+     /* de VER PELICULA */
+     #titulo{
+        margin-top: -2.4em;
+    }
+    .detalles_pelicula{
+        width: 95%;
+    }
+
+     /* de los ARTICLE */
+     article{
+        width: 75%;
+        margin-top: 6em;
+    }
+}
+
+@media only screen and (max-width: 800px ) {
+
+    main, body {
+        /* background-color: orange; */
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .main_index {
+        background: url(../media/img/background_byn_reduct.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+    }
+
+    body{
+        margin-top: 0;
+    }
+
+    .logo_hidden {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding-top: 1.5em;
+        background-color: black;
+        justify-content: space-between;
+    }
+
+    .logo_hidden_vp {
+        padding-left: 0.4em;
+    }
+
+    .headermain_vp {
+        padding-left: 0.3em;
+        padding-top: 1.15em;
+        z-index: 2;
+    }
+
+    .generos:hover .generos_to_hide{
+        background-color: black;
+        z-index: 3;
+    }
+
+    .dropdown-content > a {
+        height: 1.65em;
+        padding-top: 1em;
+    }
+
+    .logocombinado_hidden {
+        padding-left: 3em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav_hidden {
+        display: none;
+    }
+
+    #cinefy {
+        width: 9em;
+        height: min-content;
+    }
+
+    .sectionheaderlogo {
+        display: none;
+    }
+
+    .headermain {
+        justify-content: center;
+    }
+
+    .sectionheadernav {
+        width: 100%;
+        padding-right: 2%;
+        margin-top: -1.5em;
+        margin-bottom: -2.5em;
+    }
+
+    .novedades, .boton_generos, .series, .aside_genero, .buscar {
+        background-color: black;
+        border: solid;
+        border-width: thin;
+        border-color: #3e3e3ec2;
+        border-radius: 10px;
+        padding-top: 0.2em;
+    }
+
+    #login {
+        background-color: black;
+        border: solid;
+        border-width: thin;
+        border-color: #3e3e3ec2;
+        padding-top: 0.25em;
+    }
+
+    #login2 {
+        background-color: black;
+        border: solid;
+        border-width: thin;
+        border-color: #3e3e3ec2;
+        border-radius: 10px;
+    }
+    #login:hover {
+        padding-top: 0.25em;
+    }
+
+    #buscar {
+        width: 9em;
+        margin-right: 0;
+        background-color: black;
+    }
+
+    .img {
+        height: 13em;
+    }
+
+    .footer_generico {
+        display: none;
+    }
+
+    .hidden_footer{
+        padding-top: 3em;
+        display:table-column;
+        width: 98%;
+        background-color: black;
+    }
+
+    .hidden_f{
+        margin-top: 1.5em;
+        margin-bottom: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hidden_f > a {
+        margin: 0.5em;
+        text-decoration: none;
+        color: #6cc0bd97;
+        font-size: 0.8em;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 200;
+    }
+
+    .hidden_f > a:hover {
+        color: #ffffff;
+        border-style: none;
+        border-radius: 10px;
+        background-color: #6cc0bd30;
+        border-width: 0.1em;
+        padding: 0em 2em;
+        text-align: center;
+        font-weight: 300;
+    }
+
+    #boton_buscar_icon {
+        display: none;
+    }
+
+    /* de VER PELICULA */
+    #titulo{
+        margin-top: -3em;
+    }
+
+    .article_sinopsis{
+        padding: 0;
+        margin: 0;
+    }
+
+    #sinopsis{
+        width: 90%;
+        font-size: 1.3em;
+        padding-left: 1em;
+        padding-right: -1em;
+    }
+    
+    /* de los ARTICLE */
+    article{
+        width: 80%;
+        margin-top: 6em;
+    }
+    #contenedor_peliculas {
+        grid-template-columns: repeat(auto-fill, minmax(8em, 1fr)) !important;
+    }
+    /* #contenedor_peliculas img {
+        width: 3em;
+    } */
+}
+
+@media only screen and (max-width: 580px ) {
+
+    
+    main, body {
+        /* background-color: yellow; */
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .sectionheadernav {
+        display: none;
+    }
+
+    .logo_hidden{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 4em;
+    }
+
+    .logocombinado_hidden {
+        margin-left: -5em;
+    }
+
+    .logo_hidden{
+        display: flex;
+        flex-direction: row;
+        width: 94.5%;
+    }
+    .headermain_vp{
+        width: 98.35%;
+    }
+
+    .nav_hidden {
+        display: inline;
+    }
+
+    #boton-hamburguesa, #boton_volver {
+        background-color: transparent;
+        color: #fff;
+        font-size: 2.5em;
+        font-weight: 100;
+        font-family: sans-serif;
+        padding-right: -1em;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .logo_hidden{
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-left: 1.5em;
+    }
+
+    #boton-hamburguesa {
+        margin-left: 0.5em;
+    }
+
+    #boton_volver > a:hover {
+        background-color: transparent;
+        justify-content: right;
+    }
+
+    .hamburguesa:hover .dropdown-hamburguesa, 
+     .hamburuesa:active .dropdown-hamburguesa{
+        display: block;
+        align-items: flex-end;
+        border-style: none;
+        z-index: 3;
+        border-radius: 0px 0px 8px 8px;
+        border-style: none;
+        background-color: black;
+        margin-right: 5em;
+        overflow: visible;
+        border-radius: 8px;
+    }
+
+    .boton_generos {
+        border-style: none;
+        padding-left: 1em;
+    }
+
+    #b1{
+        padding-bottom: 0.3em;
+    }
+
+    .dropdown-hamburguesa{
+        transform: translateX(-7em);
+        margin-right: 5em;
+        margin-top: -0.5em;
+        display: none;
+        position: absolute;
+        overflow:visible;
+        width: 11em;
+        height:fit-content;
+        box-shadow:
+        0px 0px 14.9px -11px rgba(0, 0, 0, 0.138),
+        0px 0px 26.5px -11px rgba(0, 0, 0, 0.256),
+        0px 0px 35.6px -11px rgba(0, 0, 0, 0.345),
+        0px 0px 43.4px -11px rgba(0, 0, 0, 0.51),
+        0px 0px 51.4px -11px rgba(0, 0, 0, 0.555),
+        0px 0px 61.7px -11px rgba(0, 0, 0, 0.584),
+        0px 0px 80px -11px rgba(0, 0, 0, 0.6);
+        text-align: center;
+        align-content: center;
+        border-style: none;
+        overflow: hidden;
+        z-index: 9;
+        border-radius: 8px;
+    }
+
+    .dropdown-hamburguesa:hover, .dropdown-hamburguesa:active,
+     .dropdown-hamburguesa:focus {
+        transform: translateX(-7em);
+        z-index: 9;
+        border-radius: 8px;
+     }
+
+    .dropdown-hamburguesa a {
+        height: 1.8em;
+        padding-top: 0.6em;
+        padding-bottom: 0.5em;
+        overflow: hidden;
+        color:aliceblue;
+        text-decoration: none;
+        font-family: helvetica, verdana, arial, sans-serif;
+        font-size: 1em;
+        font-weight: 100;
+        text-align: center;
+        align-content: center;
+        z-index: 9;
+        border-radius: 8px;
+    }
+
+    a:hover {
+        border-radius: 8px;
+        z-index: 5;
+        z-index: 9;
+    }
+
+    .dropdown-hamburguesa .a4 {
+        height: 1.2em;
+        color: grey;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        z-index: 9;
+    }
+
+    .img {
+        height: 9em;
+    }
+
+    #boton_buscar_icon{
+        display: inline;
+        background-color: black;
+        transform:translateY(-0.2em) translateX(2em);
+        border: none;
+        cursor: pointer;
+        margin-right: -3em;
+    }
+
+    #buscar_icon{
+        height: 2.4em;
+        width: 2.4em;
+    }
+
+    /* de VER PELICULAS */
+    .portada{
+        display: none;
+    }
+
+    #titulo{
+        margin-top: -3em;
+    }
+
+    /* de los ARTICLE */
+    article{
+        width: 90%;
+        margin-top: 2.5em;
+    }
+
+    /* Input BUSCAR HAMBURGUESA */
+    .bb {
+        overflow: visible;
+        transform:translateY(-3.2em) translateX(2.15em);
+        box-shadow: none;
+    }
+    .bbb {
+        overflow: visible;
+        transform:translateY(-1.9em) translateX(2.15em);
+    }
+    .boton_generos {
+        box-shadow: none;
+        margin-bottom: 0.4em;
+    }
+    .divb {
+        transform:translateY(-2.15em) translateX(1.3em);
+        z-index: 11;
+    }
+    .divb > a{
+        background-color: rgb(33, 33, 33);
+        border-radius: 0;
+    }
+    .divc {
+        transform:translateY(-3.15em) translateX(1.3em);
+        z-index: 11;
+        color: black;
+    }
+    .divc > a{
+        background-color: rgb(33, 33, 33);
+        border-radius: 0;
+    }
+    .divc > a:hover {
+        color: black;
+    }
+
+    /* re-apply para <a> a4*/
+    .dropdown-hamburguesa > .a4 {
+        height: 1.2em !important;
+        color: grey !important;
+        padding-top: 0.5em !important;
+        padding-bottom: 0.5em !important;
+        z-index: 9;
+    }
+    .bb, .bb:hover {
+        border-style: none !important;
+        outline: none !important;
+    }
+    .dropdown-content > .buscar {
+        text-align: center;
+        text-indent: -0.5em;
+    }
+
+    #spanLogin1 {
+        color: rgb(6, 110, 6);
+    }
+    #spanLogin1:hover {
+        background-color: transparent !important;
+        border-style: solid;
+        border-width: thin;
+        border-color:rgb(6, 110, 6);
+        height: 1.7em;
+    }
+    #spanLogin2 {
+        color: red;
+        height: 1.7em;
+    }
+    #spanLogin2:hover {
+        background-color: transparent !important;
+        border-style: solid;
+        border-width: thin;
+        border-color: rgb(173, 35, 0);
+        height: 1.7em;
+    }
+
+    #contenedor_peliculas {
+        grid-template-columns: repeat(auto-fill, minmax(6em, 1fr)) !important;
+    }
+
+    .h3vertodos {
+        height: 3em !important;
+        margin-bottom: 0.85em !important;
+    }
+}

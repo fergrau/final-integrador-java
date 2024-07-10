@@ -1,0 +1,260 @@
+/* ESTILOS de Z_VERTODOS */
+*{
+    scroll-behavior: smooth;
+} 
+.vujahday-script-regular {
+    font-family: "Vujahday Script", cursive;
+    font-weight: 100;
+    font-style: normal;
+}  
+.dosis {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.kodchasan-light {
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("../media/img/background_byn_reduct.jpg");
+    backdrop-filter: brightness(60%);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+main {
+    min-height: 80vh;
+    width: 100vw;
+}
+
+.h3vertodos {
+    width: 100%;
+    text-indent: 0;
+    font-weight: 300;
+    letter-spacing: 0.4em;
+    text-indent: 0em !important;
+    margin-top: -0.5em;
+}
+/* h4 {
+    color: #6cc0bd;
+} */
+.genero_vt {
+    width: 99%;
+}
+#contenedor_peliculas {
+    width: 98%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(12em, 1fr)) !important;
+    grid-auto-flow: row;
+    gap: 1em;
+    align-items: center;
+    margin-bottom: 2em;
+    padding-left: 0.55em;
+}
+.elemento {
+    max-width: 14em;
+    border-radius: 1em;
+    background-color: rgba(0, 0, 0, 0.523);
+    border-style: solid;
+    border-width: thin;
+    border-color: rgba(240, 255, 255, 0.147);
+    overflow: hidden;
+}
+.elemento a {
+    text-decoration: 0;
+    color: aliceblue;
+}
+.elemento img {
+    width: 100% !important;
+    /* height: auto !important; */
+    display: flex !important;
+    object-fit: fill !important;
+}
+.titulo_vt {
+    margin: 0;
+    margin-top: 0.75em;
+    margin-bottom: 0.25em;
+    height: 3.5em;
+    font-size: 1em;
+    font-weight: 100;
+    font-family: dosis, helvetica, verdana, sans-serif;
+    text-align: center;
+}
+.detalles{
+    margin: 0;
+    text-align: center;
+    margin-bottom: -0.25em;
+}
+#duracion_año{
+    font-size: 1em;
+    color: rgb(16, 191, 249);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 100;
+}
+#punto{
+    color:aliceblue;
+    font-weight: 800;
+    padding: 0.5em;
+}
+
+/* SINOPSIS */
+.sinopsis {
+    width: 100%;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-family: dosis, helvetica, verdana, sans-serif;
+    letter-spacing: 0.4px;
+    font-weight: 100;
+    text-align: center;
+    display: none;
+}
+.sinopsis-div{
+    position:relative;
+    border-style: none;
+    font-family: helvetica, verdana, arial, sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+}
+.boton_sinopsis{
+    padding: 0;
+    margin: 0;
+    height: 1.7em;
+    border-radius: 1em;
+    background-color: rgb(3, 34, 45);
+    border-style: solid;
+    border-width: thin;
+    border-color: rgba(240, 255, 255, 0.147);
+    font-variant: small-caps;
+    letter-spacing: 0.25em;
+    margin-bottom: 0.25em;
+}
+.boton_sinopsis:hover{
+    background-color: rgba(5, 73, 95, 0.336);
+    color: aliceblue;
+}
+.dropdown-content{
+    display: none;
+    /* position: absolute; */
+    overflow:visible;
+    width: 100%;
+    height: auto;
+    box-shadow:
+    0px 0px 14.9px -11px rgba(0, 0, 0, 0.138),
+    0px 0px 26.5px -11px rgba(0, 0, 0, 0.256),
+    0px 0px 35.6px -11px rgba(0, 0, 0, 0.345),
+    0px 0px 43.4px -11px rgba(0, 0, 0, 0.51),
+    0px 0px 51.4px -11px rgba(0, 0, 0, 0.555),
+    0px 0px 61.7px -11px rgba(0, 0, 0, 0.584);
+    text-align: center;
+    border-style: none;
+    overflow: hidden;
+}
+.dropdown-content p{
+    overflow: hidden;
+    color:aliceblue;
+    font-family: dosis, helvetica, verdana, arial, sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-style: italic;
+    letter-spacing: 0.1em;
+}
+.generos:hover .dropdown-content{
+    display: block;
+    border-style: none;
+    z-index: 2;
+    border-radius: 8px;
+    border-style: none;
+    background-color: rgba(0, 0, 0, 0.82);
+    box-shadow:
+    0px 0px 6px rgb(23, 169, 169, 0.197),
+    0px 0px 17px rgb(23, 169, 169, 0.228),
+    0px 0px 80px rgb(23, 169, 169, 0.3);
+    padding: 0.5em;
+    overflow: visible;
+    position: absolute;
+    bottom: 0; /* Comienza desde la parte inferior del contenedor */
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    margin: 0;
+    padding: 0;
+    padding-bottom: 1em;
+}
+
+
+/* icono TMDB */
+.atribucion_api img {
+    width: 3.5em;
+    margin-right: -5em;
+}
+.atribucion_api_small img {
+    width: 4em;
+    margin-right: 0;
+}
+
+/* modificaciones especificas */
+
+.buscar_modif, .buscar_modif:hover, .generos_modif, 
+.generos_modif:hover, .generos > .generos_modif {
+    width: 98%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.slideDown {
+    transform: translateY(21em) translateX(-0.5em);
+}
+.slideDown > a {
+    border-radius: 8px;
+}
+.a1 {
+    margin-top: 0.5em;
+}
+
+.botonVT {
+    background-color: black;
+    border-style: solid;
+    border-width: thin;
+    border-color: gray;
+}
+
+
+
+
+/* ANIMACIONES */
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -webkit-transition-property: transform, box-shadow, border-radius;
+    transition-property: transform, box-shadow, border-radius;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+    box-shadow: 
+    0px 0px 15px -11px rgba(21, 121, 154, 0.06),
+    0px 0px 15px 2px rgba(21, 121, 154, 0.08),
+    0px 0px 11px 5px rgba(21, 121, 154, 0.1);
+    border-radius: 0;
+}
+
+
+.hidden {
+    display: none;
+}
